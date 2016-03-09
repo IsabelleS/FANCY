@@ -59,7 +59,7 @@ font-size: 12px;
 
 .menuLiens
 {
-	width: 970px;
+	width: 980px;
 	height: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -110,6 +110,10 @@ font-size: 12px;
  
 }
 
+#TroisG 
+{
+		margin-top: 12px;
+}
 #TroisG:hover .menuGeneral
 {
 	display: block;
@@ -463,7 +467,7 @@ font-size: 12px;
     line-height: 35px;
     height: auto;
     color: white;
-    background-color: green;
+
     text-align: center;
     margin-top: 20px;
     border-radius: 4px;
@@ -471,6 +475,7 @@ font-size: 12px;
     border: 1px solid #568342;
     border-top-color: #588446;
     border-bottom-color: #3e6b32;
+    background-image: linear-gradient(to bottom,#75ad5e,#639b4e);
 
 }
 
@@ -667,7 +672,7 @@ a
 
 .new
 {
-	color: blue;
+	color: #4da4e0;
 }
 
 .lienDessus
@@ -928,7 +933,7 @@ a
 	margin:9px;
 
 }
-
+CACA
 .flecheImg:hover
 {
 	opacity: 1;

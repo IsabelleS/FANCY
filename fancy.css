@@ -39,7 +39,6 @@ font-size: 12px;
 
 .scrollD
 {
-	float: right;
 	display: inline-block;
 }
 
@@ -53,8 +52,8 @@ font-size: 12px;
 
 .scroll2 .liensProduits
 {
-	margin-top: -30px;
-	position: absolute;
+	margin-top: -60px;
+	position: fixed;
 	z-index: 3;
 }
 
@@ -129,7 +128,6 @@ font-size: 12px;
 	width: 200%;
 	height: 1000px;
 	position: absolute;
-	z-index: ;
 	display: none;
 	margin-top: 16px;
  }
@@ -167,7 +165,6 @@ font-size: 12px;
 {
 	opacity: 1;
 	color: black;
-	float: left;
 	display: inline-block;
 }
 
@@ -264,7 +261,7 @@ font-size: 12px;
 	width: 970px;
 	margin-right: auto;
 	margin-left: auto;
-	height: 900px;
+	height: 820px;
 	padding-top: 80px;
 
 
@@ -332,10 +329,10 @@ font-size: 12px;
 	height: 21%;
 	background-color: white;
 	margin-bottom: 9px;
-	 border-radius: 2px;
- box-shadow: 0.3px 0.3px 1px #555;
- font-size: 15px;
- padding: 9px;
+	border-radius: 2px;
+ 	box-shadow: 0.3px 0.3px 1px #555;
+ 	font-size: 15px;
+ 	padding: 9px;
 }
 
 .opumo
@@ -380,6 +377,8 @@ font-size: 12px;
 	text-decoration:none;
 	margin-left: 35%;
 	margin-bottom: 20px;
+	color: #4978b3;
+	font-size: 13px;
 }
 
 .img1 
@@ -469,7 +468,7 @@ font-size: 12px;
     margin-top: 20px;
     border-radius: 4px;
     text-decoration: none;
-        border: 1px solid #568342;
+    border: 1px solid #568342;
     border-top-color: #588446;
     border-bottom-color: #3e6b32;
 
@@ -480,10 +479,12 @@ font-size: 12px;
 	width: 95%;
 	height: 120px;
 	background-color: white;
-	 border-radius: 2px;
- box-shadow: 0.3px 0.3px 1px #555;
- padding: 10px;
- line-height: 14px;
+	border-radius: 2px;
+	box-shadow: 0.3px 0.3px 1px #555;
+	padding: 10px;
+	line-height: 14px;
+	margin-bottom: 10px;
+	
 
 	}
 
@@ -550,6 +551,7 @@ font-size: 12px;
 	display: inline-block;
 	width: auto;
 	float: none;
+	left: 0;
 
 }
 
@@ -558,12 +560,14 @@ font-size: 12px;
 	
 	display: inline-block;
 	position: relative;
+
 }
 
 .buttonsArticle .buttonPdt
 {
 	right: auto;
-	position: relative;
+	margin-top:-18.5px;
+	margin-left: -5px;
 }
 
 .buttonFan
@@ -596,6 +600,7 @@ font-size: 12px;
 .listes
 {
 	display: inline-block;
+	margin-left: 25px;
 
  }
 
@@ -610,9 +615,9 @@ font-size: 12px;
     margin: 0;
     background-position: 0 0;
     opacity: 0.9;
-       background-size: 50px 50px;
-       float: left;
-           margin-left: 5px;
+    background-size: 50px 50px;
+    float: left;
+    margin-left: 5px;
     margin-top: 7px;
 	}
 
@@ -901,6 +906,13 @@ a
  	box-shadow: 0.3px 0.3px 1px #555;
  
 }
+
+.lienReport
+{
+	margin-left:0;
+	opacity: 0.5;
+}
+
 
 .flecheImg
 {

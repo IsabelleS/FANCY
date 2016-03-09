@@ -6,13 +6,13 @@ $(document).scroll(function () {
         $('.menuScroll').fadeOut();
     }
 
-    if (y < 940) {
+    if (  740 < y && y < 940 ) {
     	$('.scroll1').fadeIn();
     }  else {
     	$('.scroll1').fadeOut();
     }
 
-    if (y > 940) {
+    if ( y > 940 ) {
     	$('.scroll2').fadeIn();
     } else {
     	$('.scroll2').fadeOut();

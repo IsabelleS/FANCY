@@ -1,76 +1,38 @@
+body
+{
+	margin: 0;
+	background-color: #ebeced;
+	font-family: 'Helvetica';
+	height: 100%;
+	width: 100%;
+ }
+
+a 
+{
+	text-decoration: none;
+}
+
+
+/* MENU HAUT ___________________________________________________________________________________*/
+
 .menuPrincipal
 {
  
-width: 100%;
-height: 50px;
-background-color: #373d48;
-color: white;
-position: fixed;
-padding-left: 10px;
-padding-right: 10px;
-z-index: 6;
-font-size: 12px;
- 
- }
-
-
-.menuScroll
-{
-	width: 970px;
+	width: 100%;
 	height: 50px;
-	margin-left: 50%;
-	margin-right: auto;
-	background-color: white;
+	background-color: #373d48;
+	color: white;
 	position: fixed;
-	z-index: 3;
-	margin-top: 50px;
-	border-radius: 3px;
-	box-shadow: 0.3px 0.3px 1px #555;
-	padding: 5px;
-	display: none;
-	overflow: hidden;
-	transform: translateX(-50%);
-
-}
-
-.scrollG
-{
-	margin: 15px;
-	font-size: 15px;
-	display: inline-block;
-}
-
-.scrollD
-{
-	display: inline-block;
-}
-
-.scroll2
-{display: none;}
-
-.scroll1
-{
-	display: none;
-}
-
-.scroll2 .liensProduits
-{
-	margin-top: -60px;
-	position: fixed;
-	z-index: 3;
-}
-
-.menuLiens
-{
-	width: 980px;
-	height: 100%;
-	margin-right: auto;
-	margin-left: auto;
-}
- #menuDeroulant nav ul
- {
- 	list-style-type: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	z-index: 6;
+	font-size: 12px;
  }
+ 
+#menuDeroulant nav ul
+{
+ 	list-style-type: none;
+}
 
 #menuDeroulant:hover
 {
@@ -106,8 +68,6 @@ font-size: 12px;
 	border-radius: 3px;
 	color: white;
 	padding: 12px;
-	
-
 }
 
 .menuCaca ul 
@@ -115,17 +75,17 @@ font-size: 12px;
 	padding-left: 0;
 	margin-top: 0;
 }
+
 .menuGauche
 {
 	float: left;
- 
 }
 
 #TroisG 
 {
-		margin-top: 12px;
-		
+	margin-top: 12px;
 }
+
 #TroisG:hover .menuGeneral
 {
 	display: block;
@@ -134,13 +94,11 @@ font-size: 12px;
 .storeMenu
 {
 	color: #9ea0a5;
-	
 }
 
 .boutique:hover .menuGeneral
 {
 	display: block;
-	
 }
 
 .boutique
@@ -174,26 +132,24 @@ font-size: 12px;
 	opacity: 0.3;
  	position: absolute;
  	top: 0;
-
 }
-
 
 
 .menuBlanc
 {
-	width: 968px;
-	height: 180px;
-	background-color: white;
-	border-radius: 3px;
-	top: 0;
- 	position: absolute;
-	opacity: 1;
-	color: white;
-	line-height: 20px;
-	padding: 20px;
-	margin-left: 50%;
+    width: 968px;
+    height: 180px;
+    background-color: white;
+    border-radius: 2px;
+    top: 0;
+    position: absolute;
+    opacity: 1;
+    color: white;
+    line-height: 20px;
+    padding: 15px;
+    margin-left: 50%;
     transform: translateX(-50%);
-    
+    margin-top: 5px;
 }
 
 .parcourir
@@ -201,7 +157,6 @@ font-size: 12px;
 	opacity: 1;
 	color: black;
 	display: inline-block;
-
 }
 
 .editor
@@ -223,6 +178,7 @@ font-size: 12px;
 	float: left;
 	font-size: 15px;
 }
+
 .menuCentre
 {
 	background-image: url('img/logo.png');
@@ -237,15 +193,14 @@ font-size: 12px;
 }
 
 
-
 .cat
 {
-  display: inline-block;
-  color:#9ea0a5;
-  vertical-align: middle;
-  margin-top: 16px;
-  margin-left: 13px;
-  padding-bottom: 150px;
+	display: inline-block;
+	color:#9ea0a5;
+	vertical-align: middle;
+	margin-top: 16px;
+	margin-left: 13px;
+	padding-bottom: 150px;
 }
 
 .cat:hover
@@ -264,6 +219,7 @@ font-size: 12px;
 	padding-bottom: 1px;
 	margin-top: -125px;
 }
+
 #recherche
 {
 	background-image: url('img/logo.png');
@@ -272,10 +228,10 @@ font-size: 12px;
 	height: 19px;
 	background-position: 0px -20px;
  	z-index: 2;
- 	 color:#9ea0a5;
- 	 opacity: 0.6;
- 	 padding-bottom: 0;
- 	 margin-top: -130px;
+ 	color:#9ea0a5;
+ 	opacity: 0.6;
+ 	padding-bottom: 0;
+ 	margin-top: -130px;
 
 }
 
@@ -289,15 +245,82 @@ font-size: 12px;
 	float: right;
 }
 
- body
- {
-	margin: 0;
-	background-color: #e5e9f6;
-	font-family: 'Helvetica';
-	height: 100%;
-	width: 100%;
+.collections ul
+{
+ 	list-style-type: none;
+}
 
- }
+.parcourir ul
+{
+ 	list-style-type: none;
+ 	padding-left: 0;
+	margin-left: 0;
+}
+
+.editor ul
+{
+ 	list-style-type: none;
+}
+
+/* MENU QUI APPARAIT AU SCROLL ___________________________________________________________________________________*/
+
+.menuScroll
+{
+	width: 970px;
+	height: 50px;
+	margin-left: 50%;
+	margin-right: auto;
+	background-color: white;
+	position: fixed;
+	z-index: 3;
+	margin-top: 50px;
+	border-radius: 3px;
+	box-shadow: 0.3px 0.3px 1px #555;
+	padding: 5px;
+	display: none;
+	overflow: hidden;
+	transform: translateX(-50%);
+}
+
+.scrollG
+{
+	margin: 15px;
+	font-size: 15px;
+	display: inline-block;
+}
+
+.scrollD
+{
+	display: inline-block;
+}
+
+.scroll2
+{
+	display: none;
+}
+
+.scroll1
+{
+	display: none;
+}
+
+.scroll2 .liensProduits
+{
+	margin-top: -60px;
+	position: fixed;
+	z-index: 3;
+}
+
+.menuLiens
+{
+	width: 980px;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* BLOC PRODUIT ___________________________________________________________________________________*/
+
 
 .premierBloc
 {
@@ -306,20 +329,17 @@ font-size: 12px;
 	margin-left: auto;
 	height: 820px;
 	padding-top: 80px;
-
-
 }
 
 .colGauche
 {
 	width: 66%;
-	height: 106%;
+	height: 107%;
 	background-color: white;
 	float: left;
 	margin-right: 2px;
-		 border-radius: 2px;
-	 box-shadow: 0.3px 0.3px 1px #555;
-
+	border-radius: 2px;
+	box-shadow: 0.3px 0.3px 1px #555;
 }
 
 .photoG
@@ -327,10 +347,10 @@ font-size: 12px;
 	border-radius: 3px;
 	background-image: url('img/image1.jpg');
 	background-repeat: no-repeat;
-	width: 640px;
+	width: 633px;
 	height: 640px;
 	position: relative;
-	
+	margin: 3px;
 }
 
 .texteG
@@ -351,6 +371,9 @@ font-size: 12px;
 	margin-right: 40px;
 }
 
+
+/* COLONNE DROITE  ___________________________________________________________________________________*/
+
 .blocUn
 {
 	width: 96%;
@@ -359,8 +382,8 @@ font-size: 12px;
 	margin-bottom: 9px;
 	padding: 15px;
 	padding-right: 0;
-	 border-radius: 2px;
- box-shadow: 0.3px 0.3px 1px #555;
+	border-radius: 2px;
+    box-shadow: 0.3px 0.3px 1px #555;
 }
 
 .titreBloc
@@ -385,11 +408,6 @@ font-size: 12px;
 {
 	text-decoration: none;
 	width: 100%;
-	
-
- 
-	
-
 }
 
 .opumoTxt
@@ -400,6 +418,7 @@ font-size: 12px;
     margin-left: 8px;
     
 }
+
 .opumoIcone
 {
 	background-image: url("https://resize-ec4.thefancy.com/resize/crop/80/thefancy/CoverImages/original/fancy_saleitemsellerlogo_18587_6715a80d05a5.jpg");
@@ -407,7 +426,6 @@ font-size: 12px;
 	background-size: cover;
 	width: 40px;
     height: 40px;
-
     box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
     border-radius: 3px;
     display: inline-block;
@@ -420,8 +438,6 @@ font-size: 12px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 10px;
-
-
 }
 
 .opumoLien
@@ -435,7 +451,6 @@ font-size: 12px;
 	line-height: 40px;
     border-top: 1px solid #f1f1f2;
     display: block;
-
 }
 
 .img1 
@@ -447,7 +462,6 @@ font-size: 12px;
 	height: 90px;
 	display: block;
 	position: absolute;
-	
 }
 
 .img2 
@@ -458,10 +472,8 @@ font-size: 12px;
 	width: 90px;
 	height: 90px;
 	display: block;
-		position: absolute;
+	position: absolute;
 	margin-left: 95px;
-
-
 }
 
 .img3
@@ -474,7 +486,6 @@ font-size: 12px;
 	display: block;
 	position: absolute;
 	margin-left: 190px;
-
 }
 
 .containerAcheter
@@ -485,15 +496,12 @@ font-size: 12px;
 	margin-left: auto;
 	color: #8a8f9c;
 	font-size: 12px;
-
 }
 
 .quantite, .option
 {
 	display: inline-block;
 }
-
-
 
 .option select
 {
@@ -520,7 +528,6 @@ font-size: 12px;
     line-height: 35px;
     height: auto;
     color: white;
-
     text-align: center;
     margin-top: 20px;
     border-radius: 4px;
@@ -529,7 +536,6 @@ font-size: 12px;
     border-top-color: #588446;
     border-bottom-color: #3e6b32;
     background-image: linear-gradient(to bottom,#75ad5e,#639b4e);
-
 }
 
 .blocTrois
@@ -542,9 +548,7 @@ font-size: 12px;
 	padding: 10px;
 	line-height: 14px;
 	margin-bottom: 10px;
-	
-
-	}
+}
 
 .addedTo
 {
@@ -552,7 +556,6 @@ font-size: 12px;
 	height:60px;
 	text-decoration: none;
 	color: black;
-	
 }
 
 #moreInTxt
@@ -570,14 +573,14 @@ font-size: 12px;
 	font-size: 13px;
 	color: #8a8f9c;
 	border-top: 1px solid #f1f1f2;
-	}
+}
 
 .moreIn
 {
 	width: 100%;
 	height: 60px;
 	text-decoration: none;
-	 color: black;
+	color: black;
 }
 
 
@@ -612,7 +615,6 @@ font-size: 12px;
 	width: 100%;
 	height: 80px;
 	position: relative;
-
 }
 
 .buttonsArticle .fancy
@@ -621,15 +623,12 @@ font-size: 12px;
 	width: auto;
 	float: none;
 	left: 0;
-
 }
 
 .buttonsArticle .flecheProduit
 {
-	
 	display: inline-block;
 	position: relative;
-
 }
 
 .buttonsArticle .buttonPdt
@@ -654,14 +653,13 @@ font-size: 12px;
     border-radius: 3px;
     vertical-align: middle;
     position: relative;
-
-	}
+}
 
 .fancyTxt
 {
 	font-size: 12px;
 	color: #7f8184;
-	    margin-top: 7px;
+	margin-top: 7px;
 
 }	
 
@@ -671,7 +669,7 @@ font-size: 12px;
 	display: inline-block;
 	margin-left: 25px;
 
- }
+}
 
 .listesImg
 { 
@@ -680,7 +678,6 @@ font-size: 12px;
 	display: block;
     width: 9px;
     height: 16px;
-    vertical-align: middle;
     margin: 0;
     background-position: 0 0;
     opacity: 0.9;
@@ -688,21 +685,21 @@ font-size: 12px;
     float: left;
     margin-left: 5px;
     margin-top: 7px;
-	}
+}
 
 .listesTxt
 {
 	font-size: 12px;
 	color: #7f8184;
-	    margin-top: 7px;
+	margin-top: 7px;
 
 }	
+
 .lienReport
 {
 	color: grey;
 	text-decoration: none;
 	margin: 9px;
-
 	font-size: 12px;
 }
 
@@ -726,12 +723,6 @@ font-size: 12px;
 	margin-right: auto;
 	margin-top: 66px;
 	width: 970px;
-
-}
-
-a 
-{
-	text-decoration: none;
 }
 
 .new
@@ -749,6 +740,9 @@ a
 	margin-bottom: 20px;
 	position: relative;
 }
+
+/* LISTE DES PRODUITS  ___________________________________________________________________________________*/
+
 
 #recentlyViewed
 {
@@ -770,15 +764,17 @@ a
 
  .produit
  {
- width: 230px;
- height: 290px;
- position: relative;
- display: inline-block;
- background-color: white;
-  margin-right: 9.1px;
- border-radius: 5px;
- box-shadow: 0.3px 0.3px 1px #555;
- margin-bottom: 14px;
+ 	
+	 width: 230px;
+	 height: 290px;
+	 position: relative;
+	 display: inline-block;
+	 background-color: white;
+	 margin-right: 9.1px;
+	 border-radius: 5px;
+	 box-shadow: 0.3px 0.3px 1px #555;
+	 margin-bottom: 14px;
+ 
 }
 
 #Un 
@@ -908,24 +904,22 @@ a
 {
 	width: 100%;
 	height: 80%;
-	float: left}
-
+	float: left;
+}
 
 .button
 {
-		background-color:white;
-		width: 65px;
-		height: 30px;
-		border-radius: 2px;
-		margin: 10px;
-		text-align: center;
-		display: inline-block;
-		box-shadow: 0.3px 0.3px 1px #555;
-		    color: #7f8184;
-
-
-
+	background-color:white;
+	width: 65px;
+	height: 30px;
+	border-radius: 2px;
+	margin: 10px;
+	text-align: center;
+	display: inline-block;
+	box-shadow: 0.3px 0.3px 1px #555;
+	color: #7f8184;
 }
+
 .fancyImg
 { 
 	background-image: url('img/logo2.png');
@@ -937,17 +931,17 @@ a
     margin: 0;
     background-position: 0 0;
     opacity: 0.9;
-       background-size: 50px 50px;
-       float: left;
-           margin-left: 5px;
+    background-size: 50px 50px;
+    float: left;
+    margin-left: 5px;
     margin-top: 7px;
-	}
+}
 
 .fancyTxt
 {
 	font-size: 12px;
 	color: #7f8184;
-	    margin-top: 7px;
+	margin-top: 7px;
 
 }	
 
@@ -1022,13 +1016,12 @@ a
 {
 	opacity: 1;
 }
- .retourHaut
- {
 
+.retourHaut
+{
  	border-radius: 10px;
  	color: white;
  	vertical-align: middle;
-
  	position: fixed;
     bottom: 12px;
     right: 12px;
@@ -1039,29 +1032,11 @@ a
     color: #7f8184;
     font-weight: bold;
     z-index: 9;
-    
- }
+}
  
- .lienHaut 
- {
- 	text-decoration: none;
- 	color: grey;
+.lienHaut 
+{
+    text-decoration: none;
+	color: grey;
+}
  	
- }
- 	
-.collections ul
-{
- 	list-style-type: none;
-}
-
-.parcourir ul
-{
- 	list-style-type: none;
- 	padding-left: 0;
-	margin-left: 0;
-}
-
-.editor ul
-{
- 	list-style-type: none;
-}
